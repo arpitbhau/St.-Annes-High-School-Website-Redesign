@@ -1,0 +1,49 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#codeheading{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background: linear-gradient(#133749, #3f41ca);
+    font-weight: 600;
+}
+
+body{
+    background: #262431;
+}
+
+main h3{
+    font-size: 25px;
+    margin-left: 12%;
+    font-weight: 600;
+}
+
+
+main h4{
+    font-size: 20px;
+    margin-left: 15%;
+    font-weight: bold;
+}
+main ul li{
+    list-style: square;
+    margin-left: 16.5%;
+    font-weight: 200;
+    font-size: 17px;
+    padding: 5px;
+}
+
+main h2{
+    margin-left:12%;
+    color:#fff;
+    font-weight: 600;
+    font-size: 23px;
+}

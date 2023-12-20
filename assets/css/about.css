@@ -1,0 +1,106 @@
+
+
+/* JAI SHREE RAM */
+
+/* UNIVERSAL CHANGES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background: linear-gradient(45deg, #0084a9 60%, white);
+    overflow-x: hidden;
+}
+
+#btnbox{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 123, 194, 0.315);
+    transition: linear  0.7s;
+}
+
+#btnbox:hover{
+    border-bottom: 1px solid rgb(0 240 251);
+    transition: linear 0.7s;
+}
+#btnbox button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all cubic-bezier(0.75 , 1 , 0.5 , 2) 0.5s;
+}
+
+
+
+#btnbox button:hover{
+    color: #fff;
+    transition: all cubic-bezier(0.75 , 1 , 0.5 , 2) 0.5s;
+    cursor: pointer;
+}
+
+/* BANNER */
+
+#banner{
+    width: 80%;
+    height: 110vh;
+    margin: 100px auto;
+}
+
+/* mission */
+
+#pages h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+    padding: 10px 2px;
+}
+
+#pages h1:hover{
+    font-size: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* pages */
+
+#c1 , #c2 , #c3{
+    display: flex;
+    margin-top: 20px;
+}
+
+#c2 , #c3{
+    position: absolute;
+    /* transform: translateY(500%); */
+}
+
+
+/* pages ki width */
+
+#page1-left , #page1-right , #page2-left , #page2-right , #page3-left , #page3-right{
+    width: 50%;
+}
+
+
+/* imgs */
+
+#pages img {
+    position: absolute;
+    top: 55%;
+    left: 63%;
+}

@@ -1,0 +1,143 @@
+body{
+    background: radial-gradient(rgb(0, 84, 194) , rgba(0,0,0,0.75));
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.hero{
+    width: 80%;
+    height: 110vh;
+    margin: 100px auto;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 123, 194, 0.315);
+    transition: 0.5s;
+}
+
+.btn-box:hover{
+    display: flex;
+    border-bottom: 1px solid rgb(0 122 194);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-box button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.btn-box button:hover{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-box .fa{
+    margin-right: 20px;
+}
+
+.btn-box button:hover .fa{
+    color: aqua;
+}
+
+.content h2{
+    font-size: 40px;
+    transition: 0.5s;
+    color: #ccc;
+}
+
+.content h2:hover{
+    font-size: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+.content-left{
+    flex-basis: 50%;
+}
+
+.content-left p{
+    font-size: 15px;
+    padding: 6px 0;
+}
+
+.content-left .p p{
+    font-size: 15px;
+    padding: 2px 0;
+}
+
+.content-right{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.content-left a{
+    width: 150px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 179, 255);
+    color: #fff;
+    text-align: center;
+
+}
+
+.content-left a:hover{
+    width: 150px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 171, 174);
+    color: #fff;
+    text-align: center;
+}
+
+#c1{
+    transform: translateX(0px);
+}
+#b1{
+    color: #fff;
+}
+
+footer{
+    position: relative;
+}

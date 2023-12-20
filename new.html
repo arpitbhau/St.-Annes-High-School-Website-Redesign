@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Your meta tags, title, and CSS links here -->
+  <link rel="stylesheet" href="style.css"> <!-- Assuming this is your custom CSS file -->
+  <style>
+    /* Additional styles for the new design */
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #1e4356d1;
+    }
+
+    .glimpse-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .glimpse-text {
+      font-size: 3.5rem;
+      color: black;
+      mix-blend-mode: difference;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .glimpse-container:hover .glimpse-text {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Add this section for the hovering text -->
+  <div class="glimpse-container">
+    <h1 class="glimpse-text">G L I M P S E</h1>
+  </div>
+
+  <!-- Your existing JavaScript and other scripts here -->
+</body>
+</html>
