@@ -1,0 +1,82 @@
+<!-- JAI SHREE RAM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/createPost.css">
+    <title>Create Post | Admin Panel</title>
+</head>
+<body>
+    
+    <main>
+
+        <div class="logo a">
+            <img src="/assets/img/postAssets/logo_group.png" alt="">
+        </div>
+
+        <div class="heading a contentPadding">
+            <h1 class="dropTextShadow">Create Post <span>.</span></h1>
+        </div>
+
+        <div class="formContainer a contentPadding">
+            <form action="/createPost" method="post" enctype="multipart/form-data">
+                <div class="formSec">
+                    <input type="file" class="dropTextShadow" name="postImg" id="postImgFeild">
+                </div>            
+                <div class="formSec">
+                    <h3 class="dropTextShadow">Subject .</h3>
+                    <input required class="dropShadow" type="text" name="subject" id="subjectFeild" placeholder="subject goes here .">
+                </div>
+                <div class="formSec">
+                    <h3 class="dropTextShadow">Description .</h3>
+                    <textarea required name="desc" class="dropShadow" cols="30" id="descFeild" placeholder="description goes here ."></textarea>
+                </div>
+                <div class="btns">
+                    <button type="submit" class="dropShadow makeBig">create post .</button>
+                    <button type="button" class="previewBtn dropShadow makeBig">preview .</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="previewContainer contentPadding">
+            <div class="post dropBoxShadow">
+                <div class="postPic dropBoxShadow">
+                    <img src="/assets/img/new_message.svg" alt="">
+                </div>
+                <div class="postContent dropTextShadow">
+                    <h4>Subject .</h4>
+                    <p>description will be displayed here .</p>
+                    <h5 class="expandPost">expand post .</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="expandedPost contentPadding">
+            <div class="closePost">
+                <img src="/assets/img/close_btn.svg" alt="">
+            </div>
+            <div class="ePostTop">
+                <div class="ePostPic dropBoxShadow">
+                    <img src="/assets/img/new_message.svg" alt="">
+                </div>
+
+                <h4 class="dropTextShadow">Subject .</h4>
+            </div>
+            <div class="ePostContent dropTextShadow">
+                <p>description .</p>
+                <p class="desc">No Description was added .</p>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <script src="/assets/js/gsap.min.js"></script>
+    <script src="/assets/js/createPost.js"></script>
+</body>
+</html>

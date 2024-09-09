@@ -1,0 +1,211 @@
+/* JAI SHREE RAM */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: grandstanderThin;
+    color: #ececec;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: #2972C7;
+}
+
+*::selection{
+    background: #0000004c;
+}
+
+h1{
+    font-size: 4vw;
+    font-family: grandstanderSemibold;
+    letter-spacing: -2px;
+    font-weight: 100;
+    padding: 3vw;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contentPadding{
+    padding: 0 3vw;
+}
+
+.postContainer{
+    margin: 0 5vw;
+    margin-bottom: 5vh;
+    display: flex; /*This will be adjusted in js*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
+
+.post{
+    position: relative;
+    background: #ececec;
+    border-radius: 20px;
+    width: 25%;
+    height: 50vh;
+    text-align: left;   
+    padding: 15px; 
+}
+
+.postPic{
+    border-radius: 20px;
+    height: 60%;
+    background: #444;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postPic img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.postContent {
+    width: 100%;
+    position: relative;
+    height: 50%;
+    top: 8%;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postContent h4{
+    font-family: grandstanderSemiBold;
+    font-size: 1.6vw;
+    color: #111;
+    letter-spacing: -1.5px;
+}
+
+.postContent p{
+    color: #606060;
+    font-weight: 600;
+    font-size: small;
+}
+
+.postContent h5{
+    color: #0055F9;
+    font-family: grandstanderSemiBold;
+    letter-spacing: -.5px;
+    font-size: 1.1vw;  
+    cursor: pointer;  
+}
+
+.expandedPost{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #121212c0;
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    overflow-y: auto;
+    opacity: 0;
+    display: none;
+}
+
+.closePost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4%;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all ease .3s;
+    z-index: 999999999;
+}
+
+.closePost img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.closePost:hover{
+    scale: 1.1;
+    background: #202020c7;
+    transition: all ease .3s;
+}
+
+.ePostTop{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 10vh;
+}
+
+.ePostTop h4{
+    font-size: 4.3vw;
+    font-family: grandstanderSemiBold;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    letter-spacing: -4px;
+}
+
+.ePostPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    background: #444;
+}
+
+.ePostPic img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.ePostContent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+
+.ePostContent p:nth-child(1){
+    font-weight: 600;
+    letter-spacing: -.5px;
+    font-size: 150%;
+}
+
+.desc{
+    font-weight: 100;
+    line-height: 1.1;
+    letter-spacing: -.5px;
+}

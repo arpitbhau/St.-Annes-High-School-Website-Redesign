@@ -1,0 +1,26 @@
+/* JAI SHREE RAM */
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: grandstanderThin;
+    src: url(../fonts/Grandstander-Thin.ttf);
+}
+
+@font-face {
+    font-family: grandstanderSemiBold;
+    src: url(../fonts/Grandstander-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: gratitude;
+    src: url(../fonts/Gratitude.ttf);
+}

@@ -1,0 +1,7 @@
+# Jai Shree Ram
+
+test*
+node_modules/
+.vscode/
+frontend/
+package-lock.json

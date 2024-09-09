@@ -1,0 +1,20 @@
+{
+  "name": "st.-annes-high-school-website-redesign-main",
+  "version": "2.0.0",
+  "description": "Converted Frontend Project into a Backend one.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arpitbhau",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "firebase": "^10.12.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
